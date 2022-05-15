@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+}
+
+#title{
+    width: 100%;
+    height: 40%;
+    background-color: #170C34;
+    background-attachment: fixed;
+    color: #fff;
+}
+h1{
+    text-align: center;
+    padding : 10px 0px;
+}
+
+
+/******************************************************grille*********************/
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.poemes {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: right;
+    grid-gap: 0px;
+}
+.cases {
+    width: 300px;
+    height: 200px;
+    background: #B2B2B2;
+    border: 1px dotted #807373;
+}
+
+
+.cases h2,h3{
+    color: #fff;
+    font: 500 18px 'Helvetica';
+    text-align: center;
+    line-height: 28px;
+}
+
+.titre{
+    padding-top: 3rem;
+}
